@@ -53,7 +53,7 @@ export default class ResultScreen extends Component {
                                     <Text style={{fontWeight: 'bold'}}>Score: <Text style={{fontWeight: 'normal'}}>{item.score}</Text></Text>
                                     <Text style={{fontWeight: 'bold'}}>Total: <Text style={{fontWeight: 'normal'}}>{item.total}</Text></Text>
                                     <Text style={{fontWeight: 'bold'}}>Type: <Text style={{fontWeight: 'normal'}}>{item.type}</Text></Text>
-                                    <Text style={{fontWeight: 'bold'}}>Date: <Text style={{fontWeight: 'normal'}}>{item.date}</Text></Text>
+                                    <Text style={{fontWeight: 'bold'}}>Date: <Text style={{fontWeight: 'normal'}}>{item.createdOn}</Text></Text>
                                 </View>
                             </ScrollView>
                         );
